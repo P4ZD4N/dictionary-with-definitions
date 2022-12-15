@@ -5,11 +5,15 @@ dictionary = {}
 
 while True:
 
-    print("= Choose one option =".upper())
-    print("1: Add definition")
-    print("2: Find definition")
-    print("3: Delete definition")
-    print("4: Quit")
+    print(
+"""
+= Choose one option =
+1: Add definition
+2: Find definition
+3: Delete definition
+4: Quit
+"""
+    )
 
     user_option = int(input("Enter option: "))
 
